@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#addBookBtn {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.book {
+  background: #eee;
+  padding: 15px;
+  width: 180px;
+  border-radius: 8px;
+}
+
+.book button {
+  margin-right: 5px;
+  margin-top: 10px;
+}
